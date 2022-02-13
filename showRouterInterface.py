@@ -23,8 +23,41 @@ print(results)
 #converting str to json. 
 result = json.loads(results)
 
-# for i in result[0]["InterfaceTable"]:
-#    if "AdminState" in i:
-#       print(f'Admin State: {i["AdminState"]}, Interface Name: {i["InterfaceName"]}, OperStatev4:{i["OperStatev4"]}, OperStatev6: {i["OperStatev6"]}, Port_SapID: {i["Port_SapID"]}')
-#    elif "IpAddress" in i:
-#       print(f'IpAddress: {i["IpAddress"]}, Mask: {i["Mask"]}, PfxState: {i["PfxState"]}')
+'''
+[
+    {
+        "InterfaceTable": [
+            {
+                "AdminState": "Adm",
+                "InterfaceName": "Interface-Name",
+                "Mode": "Mode",
+                "OperStatev4": "Opr(v4",
+                "OperStatev6": "v6)",
+                "Port_SapID": "Port/SapId"
+            },
+            {
+                "AdminState": "Up",
+                "InterfaceName": "system",
+                "IpAddress": "10.10.10.1",
+                "Mask": "32",
+                "Mode": "Network",
+                "OperStatev4": "Up",
+                "OperStatev6": "Down",
+                "PfxState": "n/a",
+                "Port_SapID": "system"
+            },
+            {
+                "AdminState": "Up",
+                "InterfaceName": "toSR7-3",
+                "IpAddress": "192.168.10.1",
+                "Mask": "27",
+                "Mode": "Network",
+                "OperStatev4": "Up",
+                "OperStatev6": "Down",
+                "PfxState": "n/a",
+                "Port_SapID": "lag-10:900"
+            }
+        ]
+    }
+]
+'''
