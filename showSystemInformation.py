@@ -24,3 +24,23 @@ parser.parse()
 # print result in JSON format
 results = parser.result(format='json')[0]
 print(results)
+
+'''
+[
+    {
+        "Show_System_Information": {
+            "Last_Saved_Config": "cf3:\\config.cfg",
+            "Last_Time_Modifed_HR_MIN_SEC": "11:46:57",
+            "Last_Time_Modified_Date": "2022/02/09",
+            "Last_Time_Saved_Date": "2022/02/07",
+            "Last_Time_Saved_HR_MIN_SEC": "15:55:39",
+            "System_Name": "SR7-2",
+            "System_Type": "7750",
+            "System_Type_2": "SR-7",
+            "System_Uptime_Days": "17",
+            "System_Uptime_HR_MIN_SEC": "05:24:44.72",
+            "Version": "C-16.0.R9"
+        }
+    }
+]
+'''
