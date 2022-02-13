@@ -1,5 +1,3 @@
-# Düzeltilmesi gereken kısımlar var, # ile gösterilen kullanıcılar ve ilk satır tam gözükmüyor. 
-
 from pprint import pprint
 from ttp import ttp
 import json
