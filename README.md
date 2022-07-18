@@ -1,6 +1,6 @@
 # nokia-netmiko-ttp-show-commands
 
-Parsing some nokia SROS show outputs using TTP 
+Parsing some nokia SROS show outputs using Python TTP 
 
 TTP: 
 
