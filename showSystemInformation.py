@@ -21,7 +21,7 @@ Time Last Modified     : {{Last_Time_Modified_Date}} {{Last_Time_Modifed_HR_MIN_
 parser = ttp(data=data_to_parse, template=ttp_template)
 parser.parse()
 
-# print result in JSON format
+# print result in JSON format 
 results = parser.result(format='json')[0]
 print(results)
 
